@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+    <h1 style='text-align:center;' >Colors in the file</h1>
+
+    <% colors.forEach(function(color){ %>
+    <h2 style = 'color:<%=color.hexValue%>;text-align:center;' ><%=color.colorName%></h2>
+    <%});%>
+    </body>
+
+    
+</html>
